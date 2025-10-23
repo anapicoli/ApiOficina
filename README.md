@@ -3,13 +3,13 @@
   O sistema permite cadastrar clientes, registrar serviços disponíveis e criar agendamentos vinculados entre ambos.
 
 # Tecnologias Utilizadas
-  ⋄ Java 20
-  ⋄ Spring Boot 3.x
-  ⋄ Spring Web
-  ⋄ Spring Data JPA
-  ⋄ MySQL
-  ⋄ Validation
-  ⋄ Maven
+    ⋄ Java 20
+    ⋄ Spring Boot 3.x
+    ⋄ Spring Web
+    ⋄ Spring Data JPA
+    ⋄ MySQL
+    ⋄ Validation
+    ⋄ Maven
 
 # Estrutura do projeto
   - agendamentos-api
@@ -67,13 +67,13 @@
     criado_em            DATETIME            Data de criação
 
 # Testes no Postman
-  • Criar cliente ⇾ POST /clientes
-  • Criar servico ⇾ POST /servicos
-  • Criar agendamento ⇾ POST /agendamentos
-  • Listar agendamentos ⇾ GET /agendamentos
-  • Ver um agendamento específico ⇾ GET /agendamentos/{id}
-  • Atualizar agendamento ⇾ PUT /agendamnentos/{id}
-  • Excluir agendamento ⇾ DELETE /agendamentos/{id}
+    • Criar cliente ⇾ POST /clientes
+    • Criar servico ⇾ POST /servicos
+    • Criar agendamento ⇾ POST /agendamentos
+    • Listar agendamentos ⇾ GET /agendamentos
+    • Ver um agendamento específico ⇾ GET /agendamentos/{id}
+    • Atualizar agendamento ⇾ PUT /agendamnentos/{id}
+    • Excluir agendamento ⇾ DELETE /agendamentos/{id}
 
 # Como executar o projeto
   ## Passos
