@@ -82,19 +82,6 @@ Tabelas criadas automaticamente pelo JPA (ou manualmente, se desejar):
 
 ---
 
-## ⚙️ Configuração do Banco (application.properties)
-
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/oficina?useSSL=false&serverTimezone=UTC
-spring.datasource.username=root
-spring.datasource.password=123456
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
-```
-
----
-
 ## 🚀 Endpoints
 
 ### 👤 Clientes
